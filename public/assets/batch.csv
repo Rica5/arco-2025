@@ -1,38 +1,14 @@
 index,batch,document,client,priority,date,status
-48,ocmw_asse-MULTI- BATCH 12345557,2,cs_besturen_schaubroeck,5,1/7/2024 5:54:16 PM,Ready
-49,gem_puurs_sint_amands-MULTI- BAT 7/1/2024 6:57:23 PM,1,cs_besturen_schaubroeck,5,1/7/2024 5:57:23 PM,Ready
-50,gem_ardooie-MULTI- BATCH 1234601,4,cs_besturen_schaubroeck,5,1/7/2024 6:04:39 PM,Ready
-51,gem_beveren-MULTI- BATCH 1234604,20,cs_besturen_schaubroeck,5,1/7/2024 6:04:43 PM,Ready
-52,gem_bonheiden-MULTI- BATCH 12346,7,cs_besturen_schaubroeck,5,1/7/2024 6:06:20 PM,Ready
-53,gem_bredene-MULTI- BATCH 1234606,7,cs_besturen_schaubroeck,5,1/7/2024 6:06:32 PM,Ready
-54,ocmw_blankenberge-MULTI- BATCH 1 7/1/2024 7:06:54 PM,7,cs_besturen_schaubroeck,5,1/7/2024 6:06:54 PM,Ready
-55,ocmw_borgloon-MULTI- BATCH 12346,1,cs_besturen_schaubroeck,5,1/7/2024 6:07:00 PM,Ready
-56,stad_blankenberge-MULTI- BATCH 1 7/1/2024 7:07:02 PM,12,cs_besturen_schaubroeck,5,1/7/2024 6:07:02 PM,Ready
-57,BATCH 5309965,20,336_comp_ald_automotive,5,1/7/2024 6:15:06 PM,Ready
-58,BATCH 5310152,1,336_comp_ald_automotive,5,1/7/2024 6:22:41 PM,Ready
-59,BATCH 5310175,20,336_comp_ald_automotive,5,1/7/2024 6:22:46 PM,Ready
-60,BATCH 17729219,1,422_comp_tdl,5,1/7/2024 6:23:55 PM,Ready
-61,BATCH 5310177,20,336_comp_ald_automotive,5,1/7/2024 6:24:27 PM,Ready
-62,BATCH 5310179,20,336_comp_ald_automotive,5,1/7/2024 6:26:37 PM,Ready
-63,BATCH 2655363,1,549_hvz_dendermonde,5,1/7/2024 6:27:26 PM,Ready
-64,BATCH 5310181,20,336_comp_ald_automotive,5,1/7/2024 6:28:21 PM,Ready
-65,BATCH 5310192,12,336_comp_ald_automotive,5,1/7/2024 6:30:03 PM,Ready
-66,pol_kempenland-04- BATCH 1580451,1,cs_besturen_01_team3,5,1/7/2024 7:46:55 PM,Ready
-67,gem_lummen-03- BATCH 16665681,23,cs_besturen_01_team3,5,1/7/2024 7:51:04 PM,Ready
-68,ocmw_riemst-04- BATCH 15804673,1,cs_besturen_01_team3,5,1/7/2024 8:08:07 PM,Ready
-69,BATCH 17729692,1,422_comp_tdl,5,1/7/2024 8:23:27 PM,Ready
-70,gem_wachtebeke-MULTI- BATCH 7060,2,cs_besturen_schaubroeck,5,1/7/2024 9:25:33 PM,Ready
-71,ocmw_wachtebeke-MULTI- BATCH 706,1,cs_besturen_schaubroeck,5,1/7/2024 9:25:37 PM,Ready
-72,gem_zoersel-05- BATCH 9725977,1,cs_besturen_01_team3,5,1/7/2024 9:30:48 PM,Ready
-73,BATCH 17729767,1,422_comp_tdl,5,1/7/2024 9:45:14 PM,Ready
-74,gem_arendonk-01- BATCH 15039456,20,cs_besturen_01_team3,5,1/7/2024 9:47:20 PM,Ready
-75,gem_arendonk-01- BATCH 15039458,20,cs_besturen_01_team3,5,1/7/2024 9:47:40 PM,Ready
-76,gem_arendonk-01- BATCH 15039482,5,cs_besturen_01_team3,5,1/7/2024 9:53:12 PM,Ready
-77,ocmw_arendonk-01- BATCH 15039564,6,cs_besturen_01_team3,5,1/7/2024 10:04:38 PM,Ready
-78,zorg_dezilverenzwaan-05- BATCH 9 7/1/2024 11:14:04 PM,2,cs_besturen_01_team3,5,1/7/2024 10:14:04 PM,Ready
-79,gem_arendonk-01- BATCH 15039638,4,cs_besturen_01_team3,5,1/7/2024 10:20:17 PM,Ready
-80,gem_riemst-04- BATCH 15806248,1,cs_besturen_01_team3,5,2/6/2024 11:10:57 PM,Ready
-81,pol_kempenland-04- BATCH 1580728,3,cs_besturen_01_team3,5,2/7/2024 1:48:57 AM,Ready
-82,BATCH 17729824,7,422_comp_tdl,5,2/7/2024 4:36:37 AM,Ready
-83,BATCH 17729855,1,422_comp_tdl,5,2/7/2024 4:57:41 AM,Ready
-84,stad_geel-02- BATCH 13195684,2,cs_besturen_01_team3,5,2/7/2024 5:02:47 AM,Ready
+51,BATCH 17729219,1,422_comp_tdl,5,1/7/2024 6:23:55 PM,Ready
+52,BATCH 5310192,12,336_comp_ald_automotive,5,1/7/2024 6:30:03 PM,Ready
+53,gem_arendonk-01- BATCH 15039456,20,cs_besturen_01_team3,5,1/7/2024 9:47:20 PM,Ready
+54,gem_arendonk-01- BATCH 15039458,20,cs_besturen_01_team3,5,1/7/2024 9:47:40 PM,Ready
+55,gem_arendonk-01- BATCH 15039638,4,cs_besturen_01_team3,5,1/7/2024 10:20:17 PM,Ready
+56,pol_kempenland-04- BATCH 1580728,3,cs_besturen_01_team3,5,2/7/2024 1:48:57 AM,Ready
+57,BATCH 17729824,7,422_comp_tdl,5,2/7/2024 4:36:37 AM,Ready
+58,BATCH 17729855,1,422_comp_tdl,5,2/7/2024 4:57:41 AM,Ready
+59,stad_geel-02- BATCH 13195684,2,cs_besturen_01_team3,5,2/7/2024 5:02:47 AM,Ready
+60,zorg_houthalen-02- BATCH 1319592,4,cs_besturen_01_team3,5,2/7/2024 5:14:13 AM,Ready
+61,gem_houthalen-02- BATCH 13195923,16,cs_besturen_01_team3,5,2/7/2024 5:14:16 AM,Ready
+62,gem_heusden_zolder-MULTI- BATCH,10,cs_besturen_schaubroeck,5,2/7/2024 5:19:37 AM,Ready
+63,BATCH 17729895,5,422_comp_tdl,5,2/7/2024 5:20:39 AM,Ready
