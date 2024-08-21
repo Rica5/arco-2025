@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 const {saveToCsv,csvToXls,freeBtachFile} = require('./file');
 const {login} = require('./pageCheck')
+const moment = require('moment')
 const fs = require ('fs');
 
 // DATA
@@ -105,6 +106,16 @@ async function fetchData(){
             
     rows = rows.filter((e)=>e.status=="Ready")
       // Record only ready data
+      // add 1 hour to all the date
+    for (let index = 0; index < rows.length; index++) {
+      console.log('data',rows[index].date)
+        if (rows[index].date.includes('AM') || rows[index].date.includes('PM')){
+            rows[index].date = moment(rows[index].date).format('MM/DD/YYYY HH:mm:ss A')
+        }
+        else {
+            rows[index].date = moment(rows[index].date).format('DD/MM/YYYY HH:mm:ss')
+        }
+    }
     console.log("Total file scraped "+rows.length)  // Log the data length
 
     /* Saving file */
