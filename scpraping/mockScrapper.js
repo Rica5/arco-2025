@@ -98,11 +98,13 @@ async function fetchData(){
                     date : row.querySelector('div.x-grid3-col-2').innerText,
                     status : row.querySelector('div.x-grid3-col-status').innerText
                 }
+                console.log(data.date)
                 return data
             })
     )
             
-    rows = rows.filter((e)=>e.status=="Ready")      // Record only ready data
+    rows = rows.filter((e)=>e.status=="Ready")
+      // Record only ready data
     console.log("Total file scraped "+rows.length)  // Log the data length
 
     /* Saving file */
