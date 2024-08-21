@@ -108,9 +108,8 @@ async function fetchData(){
       // Record only ready data
       // add 1 hour to all the date
     for (let index = 0; index < rows.length; index++) {
-      console.log('data',rows[index].date)
         if (rows[index].date.includes('AM') || rows[index].date.includes('PM')){
-            rows[index].date = moment(rows[index].date).format('MM/DD/YYYY HH:mm:ss A')
+            rows[index].date = moment(rows[index].date).format('MM/DD/YYYY hh:mm:ss A')
         }
         else {
             rows[index].date = moment(rows[index].date).format('DD/MM/YYYY HH:mm:ss')
