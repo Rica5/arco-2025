@@ -108,11 +108,11 @@ async function fetchData(){
       // Record only ready data
       // add 1 hour to all the date
     for (let index = 0; index < rows.length; index++) {
-        if (rows[index].date.includes('AM') || rows[index].date.includes('PM')){
-            rows[index].date = moment(rows[index].date).format('MM/DD/YYYY hh:mm:ss A')
+        if (link == link1){
+            rows[index].date = moment(rows[index].date).add(1,'hours').format('MM/DD/YYYY hh:mm:ss A')
         }
         else {
-            rows[index].date = moment(rows[index].date).format('DD/MM/YYYY HH:mm:ss')
+            rows[index].date = moment(rows[index].date).format('MM/DD/YYYY hh:mm:ss A')
         }
     }
     console.log("Total file scraped "+rows.length)  // Log the data length
