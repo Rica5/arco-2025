@@ -1,55 +1,62 @@
 index,batch,document,client,priority,date,status
-7,ocmw_oudenburg-MULTI- BATCH 6856,1,cs_besturen_schaubroeck,5,10/15/2024 08:50:48 AM,Ready
-8,agb_bornem-MULTI- BATCH 13219562,2,cs_besturen_schaubroeck,5,10/15/2024 08:58:53 AM,Ready
-9,ocmw_willebroek-05- BATCH 102764,5,cs_besturen_01_team3,5,10/15/2024 09:07:44 AM,Ready
-10,ocmw_wemmel-MULTI- BATCH 7564843,1,cs_besturen_schaubroeck,5,10/15/2024 09:10:33 AM,Ready
-11,ocmw_zemst-MULTI- BATCH 7564845,1,cs_besturen_schaubroeck,5,10/15/2024 09:10:36 AM,Ready
-12,gem_herenthout-MULTI- BATCH 1039 10/15/2024 9:11:39 AM,2,cs_besturen_schaubroeck,5,10/15/2024 09:11:39 AM,Ready
-13,gem_gooik-MULTI- BATCH 10394946,1,cs_besturen_schaubroeck,5,10/15/2024 09:11:43 AM,Ready
-14,ocmw_herentals-02- BATCH 1390851,2,cs_besturen_01_team3,5,10/15/2024 09:12:46 AM,Ready
-15,gem_sint_genesius_rode-MULTI- BA,13,cs_besturen_schaubroeck,5,10/15/2024 09:12:55 AM,Ready
-16,agb_tienen-MULTI- BATCH 7277655,1,cs_besturen_schaubroeck,5,10/15/2024 09:13:21 AM,Ready
-17,gem_ternat-MULTI- BATCH 7277657,1,cs_besturen_schaubroeck,5,10/15/2024 09:13:23 AM,Ready
-18,stad_leuven-03- BATCH 17593758,1,cs_besturen_01_team3,5,10/15/2024 09:15:28 AM,Ready
-19,ocmw_maaseik-03- BATCH 17593761,1,cs_besturen_01_team3,5,10/15/2024 09:15:31 AM,Ready
-20,prov_limburg-03- BATCH 17593763,2,cs_besturen_01_team3,5,10/15/2024 09:15:32 AM,Ready
-21,stad_maaseik-03- BATCH 17593767,3,cs_besturen_01_team3,5,10/15/2024 09:15:41 AM,Ready
-22,agbi_maaseik-03- BATCH 17593769,6,cs_besturen_01_team3,5,10/15/2024 09:15:45 AM,Ready
-23,agb_leuven-03- BATCH 17593779,1,cs_besturen_01_team3,5,10/15/2024 09:15:51 AM,Ready
-24,stad_borgloon-MULTI- BATCH 13219 10/15/2024 9:15:53 AM,2,cs_besturen_schaubroeck,5,10/15/2024 09:15:53 AM,Ready
-25,agb_asse-MULTI- BATCH 13219737,1,cs_besturen_schaubroeck,5,10/15/2024 09:16:12 AM,Ready
-26,pol_vlaamseardennen-04- BATCH 17,1,cs_besturen_01_team3,5,10/15/2024 09:17:15 AM,Ready
-27,gem_koekelare-MULTI- BATCH 14081,3,cs_besturen_schaubroeck,5,10/15/2024 09:17:17 AM,Ready
-28,gem_kruisem-MULTI- BATCH 1408129,1,cs_besturen_schaubroeck,5,10/15/2024 09:17:21 AM,Ready
-29,gem_kuurne-MULTI- BATCH 14081297,1,cs_besturen_schaubroeck,5,10/15/2024 09:17:23 AM,Ready
-30,gem_lendelede-MULTI- BATCH 14081,1,cs_besturen_schaubroeck,5,10/15/2024 09:17:25 AM,Ready
-31,stad_stniklaas-04- BATCH 1707393,9,cs_besturen_01_team3,5,10/15/2024 09:17:28 AM,Ready
-32,gem_meerhout-MULTI- BATCH 140813,2,cs_besturen_schaubroeck,5,10/15/2024 09:17:42 AM,Ready
-33,zorg_zorgbandleieenschelde-MULTI 10/15/2024 9:17:53 AM,1,cs_besturen_schaubroeck,5,10/15/2024 09:17:53 AM,Ready
-34,gem_rumst-04- gem151024,3,cs_besturen_01_team3,5,10/15/2024 09:18:00 AM,Ready
-35,gem_zoersel-05- BATCH 10276529,3,cs_besturen_01_team3,5,10/15/2024 09:18:46 AM,Ready
-36,comp_mechelen-03- BATCH 17593825,1,cs_besturen_01_team3,5,10/15/2024 09:20:55 AM,Ready
-37,ocmw_beringen-01- BATCH 15910069,4,cs_besturen_01_team3,5,10/15/2024 09:20:57 AM,Ready
-38,ocmw_lummen-03- BATCH 17593829,9,cs_besturen_01_team3,5,10/15/2024 09:21:01 AM,Ready
-39,gem_boom-01- BATCH 15910071,2,cs_besturen_01_team3,5,10/15/2024 09:21:13 AM,Ready
-40,gem_beerse-01- BATCH 15910073,2,cs_besturen_01_team3,5,10/15/2024 09:21:19 AM,Ready
-41,agb_diest-01- BATCH 15910075,2,cs_besturen_01_team3,5,10/15/2024 09:21:22 AM,Ready
-42,ocmw_aarschot-01- BATCH 15910077,2,cs_besturen_01_team3,5,10/15/2024 09:21:25 AM,Ready
-43,ocmw_laakdal-03- BATCH 17593831,1,cs_besturen_01_team3,5,10/15/2024 09:21:28 AM,Ready
-44,gem_nieuwerkerken-03- BATCH 1759,1,cs_besturen_01_team3,5,10/15/2024 09:21:30 AM,Ready
-45,agb_begijnendijk-MULTI- BATCH 13,2,cs_besturen_schaubroeck,5,10/15/2024 09:21:34 AM,Ready
-46,stad_diest-01- BATCH 15910079,7,cs_besturen_01_team3,5,10/15/2024 09:21:37 AM,Ready
-47,pol_rivierenland-04- BATCH 17073 10/15/2024 9:22:47 AM,2,cs_besturen_01_team3,5,10/15/2024 09:22:47 AM,Ready
-48,gem_grimbergen-MULTI- BATCH 1039,4,cs_besturen_schaubroeck,5,10/15/2024 09:22:49 AM,Ready
-49,gem_houthalen-02- BATCH 13908559,2,cs_besturen_01_team3,5,10/15/2024 09:22:53 AM,Ready
-50,gem_turnhout-04- BATCH 17073999,10,cs_besturen_01_team3,5,10/15/2024 09:22:56 AM,Ready
-51,gem_ranst-04- BATCH 17074001,1,cs_besturen_01_team3,5,10/15/2024 09:23:07 AM,Ready
-52,BATCH 9225734,1,559_comp_dendermonde,5,10/15/2024 09:23:42 AM,Ready
-53,BATCH 9225736,2,559_comp_dendermonde,5,10/15/2024 09:23:47 AM,Ready
-54,BATCH 9225740,1,559_comp_dendermonde,5,10/15/2024 09:24:01 AM,Ready
-55,BATCH 9225742,1,559_comp_dendermonde,5,10/15/2024 09:24:04 AM,Ready
-56,agb_hamontachel-02- BATCH 139085,1,cs_besturen_01_team3,5,10/15/2024 09:24:11 AM,Ready
-57,gem_zandhoven-MULTI- BATCH 75648,1,cs_besturen_schaubroeck,5,10/15/2024 09:25:41 AM,Ready
-58,stad_zoutleeuw-MULTI- BATCH 7564,6,cs_besturen_schaubroeck,5,10/15/2024 09:25:43 AM,Ready
-59,BATCH 9225828,1,559_comp_dendermonde,5,10/15/2024 09:26:26 AM,Ready
-60,BATCH 9225836,1,559_comp_dendermonde,5,10/15/2024 09:26:42 AM,Ready
+9,stad_borgloon-MULTI- BATCH 13219 10/15/2024 9:15:53 AM,2,cs_besturen_schaubroeck,5,10/15/2024 09:15:53 AM,Ready
+10,zorg_zorgbandleieenschelde-MULTI 10/15/2024 9:17:53 AM,1,cs_besturen_schaubroeck,5,10/15/2024 09:17:53 AM,Ready
+11,gem_rumst-04- gem151024,3,cs_besturen_01_team3,5,10/15/2024 09:18:00 AM,Ready
+14,ocmw_laakdal-03- BATCH 17593831,1,cs_besturen_01_team3,5,10/15/2024 09:21:28 AM,Ready
+18,BATCH 9225732,1,559_comp_dendermonde,5,10/15/2024 09:23:37 AM,Ready
+20,BATCH 9225738,1,559_comp_dendermonde,5,10/15/2024 09:23:51 AM,Ready
+21,BATCH 9225824,1,559_comp_dendermonde,5,10/15/2024 09:26:17 AM,Ready
+22,BATCH 9225826,1,559_comp_dendermonde,5,10/15/2024 09:26:21 AM,Ready
+23,BATCH 18858524,8,422_comp_tdl,5,10/15/2024 09:26:27 AM,Ready
+24,BATCH 9225830,1,559_comp_dendermonde,5,10/15/2024 09:26:29 AM,Ready
+25,BATCH 9225832,1,559_comp_dendermonde,5,10/15/2024 09:26:32 AM,Ready
+26,BATCH 9225834,1,559_comp_dendermonde,5,10/15/2024 09:26:37 AM,Ready
+27,gem_sint_genesius_rode-MULTI- BA 10/15/2024 9:30:02 AM,1,cs_besturen_schaubroeck,5,10/15/2024 09:30:02 AM,Ready
+28,gem_st_laureins-MULTI- BATCH 727,3,cs_besturen_schaubroeck,5,10/15/2024 09:30:03 AM,Ready
+29,gem_beveren-MULTI- BATCH 1322004,2,cs_besturen_schaubroeck,5,10/15/2024 09:32:09 AM,Ready
+30,zorg_lommel-03- BATCH 17593893,2,cs_besturen_01_team3,5,10/15/2024 09:32:12 AM,Ready
+31,gem_begijnendijk-MULTI- BATCH 13,5,cs_besturen_schaubroeck,5,10/15/2024 09:32:18 AM,Ready
+32,stad_aarschot-01- BATCH 15910116,3,cs_besturen_01_team3,5,10/15/2024 09:32:30 AM,Ready
+33,agbs_herentals-02- BATCH 1390860,1,cs_besturen_01_team3,5,10/15/2024 09:34:43 AM,Ready
+34,pol_voorkempen-04- BATCH 1707409,2,cs_besturen_01_team3,5,10/15/2024 09:34:44 AM,Ready
+35,gem_koekelare-MULTI- BATCH 14081 10/15/2024 9:34:48 AM,7,cs_besturen_schaubroeck,5,10/15/2024 09:34:48 AM,Ready
+36,gem_meerhout-MULTI- BATCH 140814,2,cs_besturen_schaubroeck,5,10/15/2024 09:34:58 AM,Ready
+37,gem_kapelleopdenbos-MULTI- BATCH,1,cs_besturen_schaubroeck,5,10/15/2024 09:35:03 AM,Ready
+38,agb_puurs_sint_amands-MULTI- BAT,1,cs_besturen_schaubroeck,5,10/15/2024 09:35:06 AM,Ready
+39,gem_puurs_sint_amands-MULTI- BAT,3,cs_besturen_schaubroeck,5,10/15/2024 09:35:10 AM,Ready
+40,BATCH 18858792,1,422_comp_tdl,5,10/15/2024 09:37:46 AM,Ready
+41,stad_bree-01- BATCH 15910182,1,cs_besturen_01_team3,5,10/15/2024 09:38:22 AM,Ready
+42,stad_beringen-01- BATCH 15910185,1,cs_besturen_01_team3,5,10/15/2024 09:38:24 AM,Ready
+43,gem_kortessem-03- BATCH 17593922,1,cs_besturen_01_team3,5,10/15/2024 09:38:26 AM,Ready
+44,prov_ovlaanderen-03- BATCH 17593 10/15/2024 9:38:28 AM,2,cs_besturen_01_team3,5,10/15/2024 09:38:28 AM,Ready
+45,ocmw_herentals-02- BATCH 1390869,1,cs_besturen_01_team3,5,10/15/2024 09:39:32 AM,Ready
+46,agb_hamontachel-02- BATCH 139087,5,cs_besturen_01_team3,5,10/15/2024 09:39:33 AM,Ready
+47,stad_herentals-02- BATCH 1390870,1,cs_besturen_01_team3,5,10/15/2024 09:39:38 AM,Ready
+48,ocmw_willebroek-05- BATCH 102766,9,cs_besturen_01_team3,5,10/15/2024 09:40:41 AM,Ready
+49,ocmw_spiere_helkijn-MULTI- BATCH,1,cs_besturen_schaubroeck,5,10/15/2024 09:41:01 AM,Ready
+50,ocmw_tielt-MULTI- BATCH 7277769,11,cs_besturen_schaubroeck,5,10/15/2024 09:41:02 AM,Ready
+51,BATCH 9226002,1,559_comp_dendermonde,5,10/15/2024 09:41:23 AM,Ready
+52,gem_spiere_helkijn-MULTI- BATCH,3,cs_besturen_schaubroeck,5,10/15/2024 09:41:23 AM,Ready
+53,ocmw_st_laureins-MULTI- BATCH 72,1,cs_besturen_schaubroeck,5,10/15/2024 09:41:28 AM,Ready
+54,gem_wevelgem-MULTI- BATCH 756494,3,cs_besturen_schaubroeck,5,10/15/2024 09:41:32 AM,Ready
+55,BATCH 9226010,1,559_comp_dendermonde,5,10/15/2024 09:41:35 AM,Ready
+56,BATCH 9226012,1,559_comp_dendermonde,5,10/15/2024 09:41:39 AM,Ready
+57,stad_zoutleeuw-MULTI- BATCH 7564 10/15/2024 9:41:40 AM,1,cs_besturen_schaubroeck,5,10/15/2024 09:41:40 AM,Ready
+58,BATCH 9226016,1,559_comp_dendermonde,5,10/15/2024 09:41:45 AM,Ready
+59,BATCH 9226020,1,559_comp_dendermonde,5,10/15/2024 09:41:54 AM,Ready
+60,BATCH 9226026,2,559_comp_dendermonde,5,10/15/2024 09:42:02 AM,Ready
+61,BATCH 9226028,1,559_comp_dendermonde,5,10/15/2024 09:42:06 AM,Ready
+62,BATCH 9226034,1,559_comp_dendermonde,5,10/15/2024 09:42:14 AM,Ready
+63,BATCH 9226036,1,559_comp_dendermonde,5,10/15/2024 09:42:17 AM,Ready
+64,gem_arendonk-01- BATCH 15910195,13,cs_besturen_01_team3,5,10/15/2024 09:43:46 AM,Ready
+65,stad_lommel-03- BATCH 17594113,1,cs_besturen_01_team3,5,10/15/2024 09:43:56 AM,Ready
+66,stad_maaseik-03- BATCH 17594115,1,cs_besturen_01_team3,5,10/15/2024 09:43:57 AM,Ready
+67,agbi_maaseik-03- BATCH 17594117,1,cs_besturen_01_team3,5,10/15/2024 09:43:59 AM,Ready
+68,prov_limburg-03- BATCH 17594119,32,cs_besturen_01_team3,5,10/15/2024 09:45:06 AM,Ready
+69,agb_leuven-03- BATCH 17594139,1,cs_besturen_01_team3,5,10/15/2024 09:45:54 AM,Ready
+70,ocmw_haaltert-MULTI- BATCH 10395 10/15/2024 9:45:58 AM,7,cs_besturen_schaubroeck,5,10/15/2024 09:45:58 AM,Ready
+71,gem_wingene-05- BATCH 10276733,1,cs_besturen_01_team3,5,10/15/2024 09:46:09 AM,Ready
+72,gem_wuustwezel-05- BATCH 1027674,1,cs_besturen_01_team3,5,10/15/2024 09:46:11 AM,Ready
+73,agb_koksijdevvv-MULTI- BATCH 140,1,cs_besturen_schaubroeck,5,10/15/2024 09:46:13 AM,Ready
+74,gem_kortenberg-MULTI- BATCH 1408,3,cs_besturen_schaubroeck,5,10/15/2024 09:46:15 AM,Ready
+75,ocmw_deerlijk-MULTI- BATCH 13220,1,cs_besturen_schaubroeck,5,10/15/2024 09:48:30 AM,Ready
