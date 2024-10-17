@@ -1,64 +1,35 @@
 index,batch,document,client,priority,date,status
-24,prov_wvlaanderen-05- BATCH 10287 10/16/2024 5:48:06 PM,20,cs_besturen_01_team3,5,10/16/2024 05:48:06 PM,Ready
 26,BATCH 84165943,20,094_comp_vdl,5,10/16/2024 06:20:02 PM,Ready
-27,BATCH 84165949,20,094_comp_vdl,5,10/16/2024 06:22:30 PM,Ready
-28,BATCH 84165993,17,094_comp_vdl,5,10/16/2024 06:23:17 PM,Ready
-29,stad_hasselt-02- BATCH 13920682,20,cs_besturen_01_team3,5,10/16/2024 06:25:00 PM,Ready
-30,stad_hasselt-02- BATCH 13920684,18,cs_besturen_01_team3,5,10/16/2024 06:25:23 PM,Ready
-31,prov_limburg-03- BATCH 17609782,6,cs_besturen_01_team3,5,10/16/2024 06:32:05 PM,Ready
-32,gem_damme-MULTI- BATCH 13235218,1,cs_besturen_schaubroeck,5,10/16/2024 06:34:39 PM,Ready
-33,gem_depinte-MULTI- BATCH 1323522,1,cs_besturen_schaubroeck,5,10/16/2024 06:34:41 PM,Ready
-34,crem_hasselt-02- BATCH 13920755,2,cs_besturen_01_team3,5,10/16/2024 06:36:46 PM,Ready
-35,ocmw_hasselt-02- BATCH 13920757,4,cs_besturen_01_team3,5,10/16/2024 06:36:51 PM,Ready
-36,pol_grens-04- BATCH 17094488,1,cs_besturen_01_team3,5,10/16/2024 06:43:05 PM,Ready
-37,gem_wevelgem-MULTI- BATCH 757386,1,cs_besturen_schaubroeck,5,10/16/2024 06:44:09 PM,Ready
-38,agb_bornem-MULTI- BATCH 13235263,1,cs_besturen_schaubroeck,5,10/16/2024 06:51:23 PM,Ready
-39,gem_bonheiden-MULTI- BATCH 13235,1,cs_besturen_schaubroeck,5,10/16/2024 06:51:24 PM,Ready
-40,gem_damme-MULTI- BATCH 13235276,1,cs_besturen_schaubroeck,5,10/16/2024 06:51:26 PM,Ready
-41,gem_depinte-MULTI- BATCH 1323527,1,cs_besturen_schaubroeck,5,10/16/2024 06:51:28 PM,Ready
-42,ocmw_bredene-MULTI- BATCH 132352,1,cs_besturen_schaubroeck,5,10/16/2024 06:51:29 PM,Ready
-43,BATCH 5535928,20,336_comp_ald_automotive,5,10/16/2024 07:09:56 PM,Ready
-44,BATCH 5535930,20,336_comp_ald_automotive,5,10/16/2024 07:12:49 PM,Ready
-45,agb_bornem-MULTI- BATCH 13235423,2,cs_besturen_schaubroeck,5,10/16/2024 07:18:20 PM,Ready
-46,gem_bonheiden-MULTI- BATCH 13235 10/16/2024 7:18:23 PM,1,cs_besturen_schaubroeck,5,10/16/2024 07:18:23 PM,Ready
-47,gem_damme-MULTI- BATCH 13235427,5,cs_besturen_schaubroeck,5,10/16/2024 07:19:26 PM,Ready
-48,gem_dentergem-MULTI- BATCH 13235 10/16/2024 7:19:33 PM,2,cs_besturen_schaubroeck,5,10/16/2024 07:19:33 PM,Ready
-49,ocmw_ardooie-MULTI- BATCH 132354,1,cs_besturen_schaubroeck,5,10/16/2024 07:19:39 PM,Ready
-50,BATCH 5535932,20,336_comp_ald_automotive,5,10/16/2024 07:30:11 PM,Ready
-51,BATCH 5535934,18,336_comp_ald_automotive,5,10/16/2024 07:33:08 PM,Ready
-52,agb_bornem-MULTI- BATCH 13235535,1,cs_besturen_schaubroeck,5,10/16/2024 07:35:08 PM,Ready
-53,gem_bonheiden-MULTI- BATCH 13235 10/16/2024 7:35:11 PM,1,cs_besturen_schaubroeck,5,10/16/2024 07:35:11 PM,Ready
-54,gem_bredene-MULTI- BATCH 1323554,1,cs_besturen_schaubroeck,5,10/16/2024 07:35:16 PM,Ready
-55,gem_damme-MULTI- BATCH 13235542,3,cs_besturen_schaubroeck,5,10/16/2024 07:35:18 PM,Ready
-56,ocmw_ardooie-MULTI- BATCH 132355,1,cs_besturen_schaubroeck,5,10/16/2024 07:35:24 PM,Ready
-57,BATCH 5535959,6,336_comp_ald_automotive,5,10/16/2024 07:36:27 PM,Ready
-58,agb_bornem-MULTI- BATCH 13235588,1,cs_besturen_schaubroeck,5,10/16/2024 07:51:56 PM,Ready
-59,ocmw_bredene-MULTI- BATCH 132356,1,cs_besturen_schaubroeck,5,10/16/2024 08:07:26 PM,Ready
-60,gem_boortmeerbeek-MULTI- BATCH 1,1,cs_besturen_schaubroeck,5,10/16/2024 08:35:23 PM,Ready
-61,gem_damme-MULTI- BATCH 13235813,4,cs_besturen_schaubroeck,5,10/16/2024 08:35:25 PM,Ready
-62,gem_depinte-MULTI- BATCH 1323581,2,cs_besturen_schaubroeck,5,10/16/2024 08:35:30 PM,Ready
-63,ocmw_bredene-MULTI- BATCH 132358,1,cs_besturen_schaubroeck,5,10/16/2024 08:35:32 PM,Ready
-64,gem_riemst-04- BATCH 17095232,1,cs_besturen_01_team3,5,10/16/2024 08:39:42 PM,Ready
-65,gem_bonheiden-MULTI- BATCH 13235 10/16/2024 8:51:05 PM,1,cs_besturen_schaubroeck,5,10/16/2024 08:51:05 PM,Ready
-66,gem_bornem-MULTI- BATCH 13235903,1,cs_besturen_schaubroeck,5,10/16/2024 08:51:08 PM,Ready
-67,gem_bredene-MULTI- BATCH 1323590,1,cs_besturen_schaubroeck,5,10/16/2024 08:51:11 PM,Ready
-68,gem_dentergem-MULTI- BATCH 13235 10/16/2024 8:51:13 PM,1,cs_besturen_schaubroeck,5,10/16/2024 08:51:13 PM,Ready
-69,gem_depinte-MULTI- BATCH 1323590,4,cs_besturen_schaubroeck,5,10/16/2024 08:51:15 PM,Ready
-70,agb_bornem-MULTI- BATCH 13235911,1,cs_besturen_schaubroeck,5,10/16/2024 08:51:19 PM,Ready
-71,ocmw_ardooie-MULTI- BATCH 132359,2,cs_besturen_schaubroeck,5,10/16/2024 08:51:25 PM,Ready
-72,ocmw_bredene-MULTI- BATCH 132359,2,cs_besturen_schaubroeck,5,10/16/2024 08:52:30 PM,Ready
-73,ocmw_damme-MULTI- BATCH 13235917,1,cs_besturen_schaubroeck,5,10/16/2024 08:52:36 PM,Ready
-74,ocmw_dentergem-MULTI- BATCH 1323,1,cs_besturen_schaubroeck,5,10/16/2024 08:52:38 PM,Ready
-75,gem_damme-MULTI- BATCH 13235921,5,cs_besturen_schaubroeck,5,10/16/2024 08:52:40 PM,Ready
-76,gem_bredene-MULTI- BATCH 1323602,1,cs_besturen_schaubroeck,5,10/16/2024 09:08:15 PM,Ready
-77,gem_damme-MULTI- BATCH 13236022,1,cs_besturen_schaubroeck,5,10/16/2024 09:08:17 PM,Ready
-78,gem_depinte-MULTI- BATCH 1323602,1,cs_besturen_schaubroeck,5,10/16/2024 09:08:18 PM,Ready
-79,ocmw_depinte-MULTI- BATCH 132360,1,cs_besturen_schaubroeck,5,10/16/2024 09:08:19 PM,Ready
-80,ocmw_damme-MULTI- BATCH 13236072,1,cs_besturen_schaubroeck,5,10/16/2024 09:24:52 PM,Ready
-81,gem_beveren-MULTI- BATCH 1323616,1,cs_besturen_schaubroeck,5,10/16/2024 09:40:22 PM,Ready
-82,gem_damme-MULTI- BATCH 13236164,2,cs_besturen_schaubroeck,5,10/16/2024 09:40:23 PM,Ready
-83,gem_depinte-MULTI- BATCH 1323616,1,cs_besturen_schaubroeck,5,10/16/2024 09:40:25 PM,Ready
-84,agbp_sinttruiden-04- BATCH 17095,1,cs_besturen_01_team3,5,10/16/2024 09:44:34 PM,Ready
-85,ocmw_aarschot-01- BATCH 15925745,2,cs_besturen_01_team3,5,10/16/2024 10:14:32 PM,Ready
-86,gem_houthalen-02- BATCH 13921545,1,cs_besturen_01_team3,5,10/16/2024 10:46:47 PM,Ready
-87,zorg_houthalen-02- BATCH 1392161,1,cs_besturen_01_team3,5,10/16/2024 11:03:19 PM,Ready
+27,ocmw_hasselt-02- BATCH 13920757,4,cs_besturen_01_team3,5,10/16/2024 06:36:51 PM,Ready
+29,BATCH 5535932,20,336_comp_ald_automotive,5,10/16/2024 07:30:11 PM,Ready
+30,gem_bredene-MULTI- BATCH 1323554,1,cs_besturen_schaubroeck,5,10/16/2024 07:35:16 PM,Ready
+31,gem_damme-MULTI- BATCH 13235542,3,cs_besturen_schaubroeck,5,10/16/2024 07:35:18 PM,Ready
+32,ocmw_ardooie-MULTI- BATCH 132355,1,cs_besturen_schaubroeck,5,10/16/2024 07:35:24 PM,Ready
+33,BATCH 5535959,6,336_comp_ald_automotive,5,10/16/2024 07:36:27 PM,Ready
+34,agb_bornem-MULTI- BATCH 13235588,1,cs_besturen_schaubroeck,5,10/16/2024 07:51:56 PM,Ready
+35,ocmw_bredene-MULTI- BATCH 132356,1,cs_besturen_schaubroeck,5,10/16/2024 08:07:26 PM,Ready
+36,gem_boortmeerbeek-MULTI- BATCH 1,1,cs_besturen_schaubroeck,5,10/16/2024 08:35:23 PM,Ready
+37,gem_bonheiden-MULTI- BATCH 13235 10/16/2024 8:51:05 PM,1,cs_besturen_schaubroeck,5,10/16/2024 08:51:05 PM,Ready
+38,gem_bornem-MULTI- BATCH 13235903,1,cs_besturen_schaubroeck,5,10/16/2024 08:51:08 PM,Ready
+39,gem_bredene-MULTI- BATCH 1323590,1,cs_besturen_schaubroeck,5,10/16/2024 08:51:11 PM,Ready
+40,gem_dentergem-MULTI- BATCH 13235 10/16/2024 8:51:13 PM,1,cs_besturen_schaubroeck,5,10/16/2024 08:51:13 PM,Ready
+41,gem_depinte-MULTI- BATCH 1323590,4,cs_besturen_schaubroeck,5,10/16/2024 08:51:15 PM,Ready
+42,agb_bornem-MULTI- BATCH 13235911,1,cs_besturen_schaubroeck,5,10/16/2024 08:51:19 PM,Ready
+43,ocmw_ardooie-MULTI- BATCH 132359,2,cs_besturen_schaubroeck,5,10/16/2024 08:51:25 PM,Ready
+44,ocmw_bredene-MULTI- BATCH 132359,2,cs_besturen_schaubroeck,5,10/16/2024 08:52:30 PM,Ready
+45,ocmw_damme-MULTI- BATCH 13235917,1,cs_besturen_schaubroeck,5,10/16/2024 08:52:36 PM,Ready
+46,ocmw_dentergem-MULTI- BATCH 1323,1,cs_besturen_schaubroeck,5,10/16/2024 08:52:38 PM,Ready
+47,gem_damme-MULTI- BATCH 13235921,5,cs_besturen_schaubroeck,5,10/16/2024 08:52:40 PM,Ready
+48,gem_bredene-MULTI- BATCH 1323602,1,cs_besturen_schaubroeck,5,10/16/2024 09:08:15 PM,Ready
+49,gem_damme-MULTI- BATCH 13236022,1,cs_besturen_schaubroeck,5,10/16/2024 09:08:17 PM,Ready
+50,gem_depinte-MULTI- BATCH 1323602,1,cs_besturen_schaubroeck,5,10/16/2024 09:08:18 PM,Ready
+51,ocmw_depinte-MULTI- BATCH 132360,1,cs_besturen_schaubroeck,5,10/16/2024 09:08:19 PM,Ready
+52,ocmw_damme-MULTI- BATCH 13236072,1,cs_besturen_schaubroeck,5,10/16/2024 09:24:52 PM,Ready
+53,gem_beveren-MULTI- BATCH 1323616,1,cs_besturen_schaubroeck,5,10/16/2024 09:40:22 PM,Ready
+54,gem_damme-MULTI- BATCH 13236164,2,cs_besturen_schaubroeck,5,10/16/2024 09:40:23 PM,Ready
+55,gem_depinte-MULTI- BATCH 1323616,1,cs_besturen_schaubroeck,5,10/16/2024 09:40:25 PM,Ready
+56,agbp_sinttruiden-04- BATCH 17095,1,cs_besturen_01_team3,5,10/16/2024 09:44:34 PM,Ready
+57,ocmw_aarschot-01- BATCH 15925745,2,cs_besturen_01_team3,5,10/16/2024 10:14:32 PM,Ready
+58,gem_houthalen-02- BATCH 13921545,1,cs_besturen_01_team3,5,10/16/2024 10:46:47 PM,Ready
+59,zorg_houthalen-02- BATCH 1392161,1,cs_besturen_01_team3,5,10/16/2024 11:03:19 PM,Ready
+60,stad_sinttruiden-04- BATCH 17099,5,cs_besturen_01_team3,5,10/17/2024 06:15:38 AM,Ready
