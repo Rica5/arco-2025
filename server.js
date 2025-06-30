@@ -25,6 +25,8 @@ var data = {
 
 app.use(cookieSession({
     name: 'session',
+    secure: true,
+    httpOnly: true,
     keys: [process.env.SESSION_SECRET],
     maxAge: 24 * 60 * 60 * 1000 // 24h
 }));
@@ -127,7 +129,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    console.log("session", req.session.loggedIn)
     if (req.session.loggedIn) {
         res.render('index')
     }
@@ -170,7 +171,6 @@ const server = app.listen(process.env.PORT || PORT, async () => {
 });
 
 app.get('/logout', (req, res) => {
-    console.log("session Logout", req.session.loggedIn)
     req.session.loggedIn = false;
     res.render('login', { err: "" })
 });
