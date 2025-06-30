@@ -2,12 +2,14 @@ const express = require("express");
 const app = express();
 const path = require("path")
 const fs = require('fs');
+const cookieSession = require('cookie-session');
 const { fetchData, restartBrowser } = require('./scpraping/mockScrapper');
 const sleep = require("./scpraping/helper");   // async sleep method
 const cors = require("cors");
+require('dotenv').config()
 const bodyParser = require("body-parser");
 var login_user = "arco-kofax";
-var mdp_user = "scrap20!25";
+var mdp_user = "Scrap20!25";
 
 
 const PORT = process.env.PORT || 8080;
@@ -21,12 +23,26 @@ var data = {
     rows: []
 }
 
+app.use(cookieSession({
+    name: 'session',
+    keys: [process.env.SESSION_SECRET],
+    maxAge: 24 * 60 * 60 * 1000 // 24h
+}));
+
 async function setScrapOn() {
     return new Promise((resolve) => {
         console.log("!! Scrap status ON")
         scapStatus.onScrap = true
         resolve(true)
     })
+}
+
+function requireAuth(req, res, next) {
+    if (req.session.loggedIn) {
+        next();
+    } else {
+        res.redirect('/');
+    }
 }
 
 async function setScrapOff() {
@@ -111,10 +127,17 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.render('login', { err: "" })
+    console.log("session", req.session.loggedIn)
+    if (req.session.loggedIn) {
+        res.render('index')
+    }
+    else {
+        res.render('login', { err: "" })
+    }
 });
 app.post('/start', (req, res) => {
     if (req.body.user == login_user && req.body.password == mdp_user) {
+        req.session.loggedIn = true;
         if (data.rows.length > 0)
             res.render('data', { rows: data.rows })
         else
@@ -126,7 +149,7 @@ app.post('/start', (req, res) => {
 
 });
 
-app.get('/data', async (req, res) => {
+app.get('/data', requireAuth, async (req, res) => {
     data.rows = await handleScraping(req, res, scapStatus)
     res.render('data', { rows: data.rows })
     scapStatus.status = false   // okkk simultanee
@@ -134,7 +157,7 @@ app.get('/data', async (req, res) => {
     console.log('Scrap off :: data rendered')
 })
 
-app.get('/download', async (req, res) => {
+app.get('/download', requireAuth, async (req, res) => {
     await waitForScrap(scapStatus)
     try { res.download('./public/assets/batch.xls'); }
     catch (e) { console.log('Download error ::' + e) }
@@ -144,6 +167,12 @@ const server = app.listen(process.env.PORT || PORT, async () => {
     const port = server.address().port;
     await handleBrowser()
     console.log(`Express is working on port ${port}`);
+});
+
+app.get('/logout', (req, res) => {
+    console.log("session Logout", req.session.loggedIn)
+    req.session.loggedIn = false;
+    res.render('login', { err: "" })
 });
 
 
