@@ -20,6 +20,8 @@
   "homepage": "https://github.com/harivonyR/puppeteer-webscrap-app#readme",
   "dependencies": {
     "@aternus/csv-to-xlsx": "^1.0.19",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
