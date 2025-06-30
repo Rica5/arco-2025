@@ -27,7 +27,7 @@ app.use(cookieSession({
     name: 'session',
     secure: true,
     httpOnly: true,
-    keys: [process.env.SESSION_SECRET],
+    keys: [process.env.SESSION_SECRET || 'M0YkLbI^#ej4g5@V&8rTzXmA$Jp!2nWsQ#uC^HT*v7KpZxF&b!NhqRgM$DLvYX9c'],
     maxAge: 24 * 60 * 60 * 1000 // 24h
 }));
 
