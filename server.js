@@ -8,8 +8,46 @@ const sleep = require("./scpraping/helper");   // async sleep method
 const cors = require("cors");
 require('dotenv').config()
 const bodyParser = require("body-parser");
-var login_user = "arco-kofax";
-var mdp_user = "Scrap20!25";
+const accounts = [
+    {
+        email: "mdg.patricia@gmail.com",
+        password: "Pa!2025@MdG_7xK#"
+    },
+    {
+        email: "mdg.ovamampianina@gmail.com",
+        password: "Ov!2025@MdG_Xz9#"
+    },
+    {
+        email: "m.nir.niry.optimumsolutions@gmail.com",
+        password: "Ni!2025@Opti_N6!r"
+    },
+    {
+        email: "m.ate.tafita.optimumsolutions@gmail.com",
+        password: "Ta!2025@Opti_A3!t"
+    },
+    {
+        email: "m.tsi.tsiory.optimumsolutions@gmail.com",
+        password: "Ts!2025@Opti_L8!t"
+    },
+    {
+        email: "m.saf.safidy.optimumsolutions@gmail.com",
+        password: "Sa!2025@Opti_K4!s"
+    },
+    {
+        email: "niven@optimumsolutions.eu",
+        password: "Ni!2025@Opti_U7!v"
+    },
+    {
+        email: "mdg.sehenoemma@gmail.com",
+        password: "Se!2025@MdG_M5!e"
+    },
+    {
+        email: "kushal.optimumsolutions@gmail.com",
+        password: "Ku!2025@Opti_J2!l"
+    }
+];
+
+
 
 
 const PORT = process.env.PORT || 8080;
@@ -28,7 +66,7 @@ app.use(cookieSession({
     secure: true,
     httpOnly: true,
     keys: [process.env.SESSION_SECRET || 'M0YkLbI^#ej4g5@V&8rTzXmA$Jp!2nWsQ#uC^HT*v7KpZxF&b!NhqRgM$DLvYX9c'],
-    maxAge: 24 * 60 * 60 * 1000 // 24h
+    maxAge: 12 * 60 * 60 * 1000 // 24h
 }));
 
 async function setScrapOn() {
@@ -129,25 +167,35 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
+    console.log('Login after', req.session.loggedIn);
     if (req.session.loggedIn) {
-        res.render('index')
+        if (data.rows.length > 0)
+            res.render('data', { rows: data.rows });
+        else
+            res.render('index');
     }
     else {
         res.render('login', { err: "" })
     }
 });
 app.post('/start', (req, res) => {
-    if (req.body.user == login_user && req.body.password == mdp_user) {
+    const { user, password } = req.body;
+
+    const matchedAccount = accounts.find(account =>
+        account.email.trim() === user && account.password.trim() === password
+    );
+
+    if (matchedAccount) {
         req.session.loggedIn = true;
+        console.log('Login success', req.session.loggedIn);
+
         if (data.rows.length > 0)
-            res.render('data', { rows: data.rows })
+            res.render('data', { rows: data.rows });
         else
-            res.render('index')
-    }
-    else {
+            res.render('index');
+    } else {
         res.render("login", { err: "Nom d'utilisateur ou mot de passe incorrect" });
     }
-
 });
 
 app.get('/data', requireAuth, async (req, res) => {
