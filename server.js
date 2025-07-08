@@ -40,8 +40,13 @@ const accounts = [
     {
         email: "mdg.sehenoemma@gmail.com",
         password: "Se!2025@MdG_M5!e"
+    },
+    {
+        email: "kushal.optimumsolutions@gmail.com",
+        password: "Ku!2025@Opti_J2!l"
     }
 ];
+
 
 
 
