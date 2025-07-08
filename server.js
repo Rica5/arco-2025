@@ -63,7 +63,7 @@ var data = {
 
 app.use(cookieSession({
     name: 'session',
-    secure: true,
+    secure: false,
     httpOnly: true,
     keys: [process.env.SESSION_SECRET || 'M0YkLbI^#ej4g5@V&8rTzXmA$Jp!2nWsQ#uC^HT*v7KpZxF&b!NhqRgM$DLvYX9c'],
     maxAge: 12 * 60 * 60 * 1000 // 24h
