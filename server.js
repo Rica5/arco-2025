@@ -7,6 +7,7 @@ const { fetchData, restartBrowser } = require('./scpraping/mockScrapper');
 const sleep = require("./scpraping/helper");   // async sleep method
 const cors = require("cors");
 require('dotenv').config()
+dgsqd()
 const bodyParser = require("body-parser");
 const accounts = [
     {
